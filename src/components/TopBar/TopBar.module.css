@@ -1,0 +1,14 @@
+.bar{
+  display:flex; align-items:center; justify-content:space-between; gap:8px;
+  margin-bottom:10px; padding-top:calc(6px + env(safe-area-inset-top));
+}
+.levelLabel{ font-weight:800; font-size:1.05rem; text-align:center; flex:1; }
+.levelLabel small{
+  display:block; font-weight:700; opacity:.55; font-size:.65rem;
+  letter-spacing:.08em; text-transform:uppercase;
+}
+.chip{
+  background:#fff; border-radius:999px; padding:8px 14px;
+  font-weight:800; font-size:.9rem; display:flex; align-items:center; gap:6px;
+  box-shadow:var(--shadow-soft);
+}
