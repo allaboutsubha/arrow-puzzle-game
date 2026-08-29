@@ -1,7 +1,8 @@
 import { useCallback, useMemo, useState } from "react";
 import type { ArrowState } from "../levels/levelTypes";
 import { getLevel } from "../levels/levels";
-import { canArrowExit, isLevelComplete } from "../game/engine/collision";
+import { canArrowExit } from "../game/engine/collision";
+import { isLevelComplete } from "../game/engine/movement";
 import { getHint as engineGetHint } from "../game/engine/solver";
 import { computeStars } from "../game/engine/scoring";
 import { storage } from "../utils/storage";
